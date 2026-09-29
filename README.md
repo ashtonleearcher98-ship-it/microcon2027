@@ -34,7 +34,7 @@ Shared CSS and JavaScript live in `assets/`; images, the supplied MicroCon logo,
 
 ## Editing
 
-Event details are written directly in the HTML pages. Keep dates, status, ticket prices, and announcements current with the organising teams. The itinerary switching and mobile menu are in `assets/app.js`. All imagery is included with the repository.
+Event details are written directly in the HTML pages. Keep dates, status, ticket prices, and announcements current with the organising teams. The itinerary switching, mobile menu, and on-site ticket preview window are in `assets/app.js`. The final payment step opens the supplied Stripe-hosted checkout in a separate tab; embedding payment fields would require a Stripe Checkout integration and backend. All imagery is included with the repository.
 
 ## Sources and status
 
