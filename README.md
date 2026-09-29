@@ -11,7 +11,7 @@ A responsive, static multi-page guide to MicroCon 2027 North America and Europe.
 - `europe.html` — Aigues-Mortes details
 - `programme.html` — interactive schedule tabs
 - `delegations.html` — complete published registries with search and continent switcher
-- `registration.html` — official registration and waitlist links
+- `registration.html` — screenshot-inspired ticket selector with official checkout links and waitlist
 - `news.html` — curated official announcements
 - `contact.html` — organiser contact links
 - `404.html` — missing page

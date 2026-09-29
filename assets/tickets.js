@@ -1,0 +1,4 @@
+const ticketTabs=[...document.querySelectorAll('[data-ticket-wing]')];
+function showTicketWing(wing,focus=false){for(const tab of ticketTabs){const active=tab.dataset.ticketWing===wing;tab.setAttribute('aria-selected',String(active));tab.tabIndex=active?0:-1;document.getElementById(tab.getAttribute('aria-controls')).hidden=!active;if(active&&focus)tab.focus()}}
+ticketTabs.forEach((tab,index)=>{tab.addEventListener('click',()=>showTicketWing(tab.dataset.ticketWing));tab.addEventListener('keydown',event=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;event.preventDefault();const next=event.key==='Home'?0:event.key==='End'?ticketTabs.length-1:(index+(event.key==='ArrowRight'?1:-1)+ticketTabs.length)%ticketTabs.length;showTicketWing(ticketTabs[next].dataset.ticketWing,true)})});
+if(location.hash==='#north-america-tickets')showTicketWing('na');else showTicketWing('eu');
