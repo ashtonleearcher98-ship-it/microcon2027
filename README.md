@@ -12,6 +12,11 @@ A responsive, static multi-page guide to MicroCon 2027 North America and Europe.
 - `programme.html` — interactive schedule tabs
 - `delegations.html` — complete published registries with search and continent switcher
 - `registration.html` — screenshot-inspired ticket selector with official checkout links and waitlist
+- `experiences.html` — individual conference, excursion, social and gala details
+- `travel.html` — venue addresses and arrival guidance
+- `accommodations.html` — lodging guidance for both cities
+- `faq.html` — booking, attendance and travel answers
+- `policies.html` — policy overview with links to complete host terms
 - `news.html` — curated official announcements
 - `contact.html` — organiser contact links
 - `404.html` — missing page
@@ -31,4 +36,4 @@ Event details are written directly in the HTML pages. Keep dates, status, ticket
 
 ## Sources and status
 
-Content checked against the official [North America](https://us.microcon27.com/) and [Europe](https://eu.microcon27.com/) sites on 28 September 2026. This is an independent guide. Ticket sales are handled by the organisers’ Stripe checkout pages, with status and terms on their official sites. The North America host listed limited conference seats on 28 September 2026; availability may change.
+Content checked against the official [North America](https://us.microcon27.com/) and [Europe](https://eu.microcon27.com/) sites on 29 September 2026. This is an independent guide. Ticket sales are handled by the organisers’ Stripe checkout pages, with status and terms on their official sites. The North America host listed limited conference seats on 29 September 2026; availability may change.
