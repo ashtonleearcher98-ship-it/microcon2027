@@ -16,7 +16,7 @@ A responsive, static multi-page guide to MicroCon 2027 North America and Europe.
 - `contact.html` — organiser contact links
 - `404.html` — missing page
 
-Shared CSS and JavaScript live in `assets/`; images are included locally. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
+Shared CSS and JavaScript live in `assets/`; images and the supplied MicroCon logo are included locally. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
 
 ## Publish to GitHub Pages
 
@@ -31,4 +31,4 @@ Event details are written directly in the HTML pages. Keep dates, status, ticket
 
 ## Sources and status
 
-Content checked against the official [North America](https://us.microcon27.com/) and [Europe](https://eu.microcon27.com/) sites on 28 September 2026. This is an independent guide. Ticket sales and waitlist requests are handled on the organisers’ sites.
+Content checked against the official [North America](https://us.microcon27.com/) and [Europe](https://eu.microcon27.com/) sites on 28 September 2026. This is an independent guide. Ticket sales are handled by the organisers’ Stripe checkout pages, with status and terms on their official sites. The North America host listed limited conference seats on 28 September 2026; availability may change.
