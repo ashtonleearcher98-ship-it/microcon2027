@@ -10,13 +10,13 @@ A responsive, static multi-page guide to MicroCon 2027 North America and Europe.
 - `north-america.html` — San Diego details
 - `europe.html` — Aigues-Mortes details
 - `programme.html` — interactive schedule tabs
-- `delegations.html` — selected attending nations
+- `delegations.html` — complete published registries with search and continent switcher
 - `registration.html` — official registration and waitlist links
 - `news.html` — curated official announcements
 - `contact.html` — organiser contact links
 - `404.html` — missing page
 
-Shared CSS and JavaScript live in `assets/`; images and the supplied MicroCon logo are included locally. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
+Shared CSS and JavaScript live in `assets/`; images, the supplied MicroCon logo, and the North America WhatsApp QR are included locally. Delegation flag thumbnails reference the organisers’ image URLs and have built-in fallbacks. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
 
 ## Publish to GitHub Pages
 
