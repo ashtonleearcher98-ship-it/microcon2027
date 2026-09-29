@@ -17,11 +17,13 @@ A responsive, static multi-page guide to MicroCon 2027 North America and Europe.
 - `accommodations.html` — lodging guidance for both cities
 - `faq.html` — booking, attendance and travel answers
 - `policies.html` — policy overview with links to complete host terms
-- `news.html` — curated official announcements
+- `flag.html` — printed-programme flag enquiry
+- `terms.html` and `privacy.html` — site information
+- `news.html` — local announcement archive
 - `contact.html` — organiser contact links
 - `404.html` — missing page
 
-Shared CSS and JavaScript live in `assets/`; images, the supplied MicroCon logo, and the North America WhatsApp QR are included locally. Delegation flag thumbnails reference the organisers’ image URLs and have built-in fallbacks. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
+Shared CSS and JavaScript live in `assets/`; images, the supplied MicroCon logo, and the North America WhatsApp QR are included locally. Delegation entries are local and use initial badges; source-hosted flag thumbnails would stop working after the old domains close. Tailwind CDN and Google Fonts are optional external enhancements; the site’s core styling lives in `assets/style.css`.
 
 ## Publish to GitHub Pages
 
@@ -32,8 +34,8 @@ Shared CSS and JavaScript live in `assets/`; images, the supplied MicroCon logo,
 
 ## Editing
 
-Event details are written directly in the HTML pages. Keep dates, status, ticket prices, and linked announcements in sync with the official hosts. The itinerary switching and mobile menu are in `assets/app.js`. All imagery is included with the repository.
+Event details are written directly in the HTML pages. Keep dates, status, ticket prices, and announcements current with the organising teams. The itinerary switching and mobile menu are in `assets/app.js`. All imagery is included with the repository.
 
 ## Sources and status
 
-Content checked against the official [North America](https://us.microcon27.com/) and [Europe](https://eu.microcon27.com/) sites on 29 September 2026. This is an independent guide. Ticket sales are handled by the organisers’ Stripe checkout pages, with status and terms on their official sites. The North America host listed limited conference seats on 29 September 2026; availability may change.
+Content consolidated from the two retiring organiser sites and supplied event materials on 29 September 2026. The repo contains no links or image dependencies on the retiring domains. Payment uses the supplied Stripe checkouts; newsletter, WhatsApp, and the two requested video links remain external. The policy page paraphrases host conditions, and the local news page summarises selected announcements. Before retiring the original domains, the organisers should preserve any required legal text and historic article/media archive, verify ticket status, and configure the replacement domain.
